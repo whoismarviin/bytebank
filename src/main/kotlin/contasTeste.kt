@@ -1,4 +1,7 @@
- fun contasTeste() {
+import Model.ContaCorrente
+import Model.ContaPoupanca
+
+fun contasTeste() {
     val contaCorrente = ContaCorrente(
         "alex",
         saldo = 10000.90

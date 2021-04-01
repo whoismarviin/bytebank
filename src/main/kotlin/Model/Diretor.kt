@@ -1,10 +1,14 @@
+package Model
+
+import Autenticavel
+
 open class Diretor(
     nome: String,
     Cpf: String,
     Salario: Double,
     senha : Int,
     val plr:Double
-):FuncionarioAdmin(
+): FuncionarioAdmin(
     nome = nome,
     Cpf = Cpf,
     Salario = Salario,

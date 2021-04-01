@@ -1,8 +1,12 @@
+package Model
+
+import Autenticavel
+
 class Cliente(
     val nome: String,
     val cpf: String,
     val senha: Int
-):Autenticavel {
+): Autenticavel {
     override fun autentica(senha: Int): Boolean {
         if (this.senha == senha) {
             return true

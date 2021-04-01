@@ -1,3 +1,5 @@
+import Model.Conta
+
 fun logicaMain(contaAlex: Conta, contaMaria: Conta) {
     contaAlex.numeroConta = 11223
 

@@ -1,5 +1,9 @@
+package Model
+
+import Model.Conta
+
 class ContaCorrente(titular: String, saldo: Double)
-    :Conta(
+    : Conta(
     titular,
     saldo
 ) {

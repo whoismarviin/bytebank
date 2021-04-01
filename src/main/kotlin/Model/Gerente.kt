@@ -1,14 +1,18 @@
+package Model
+
+import Autenticavel
+
 open class Gerente(
      nome: String,
      Cpf: String,
      Salario: Double,
      senha : Int
-):FuncionarioAdmin(
+): FuncionarioAdmin(
     nome = nome,
     Cpf = Cpf,
     Salario = Salario,
     senha = senha
-),Autenticavel {
+), Autenticavel {
     override val bonificacao: Double
         get() {
             return Salario * 0.5

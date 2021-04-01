@@ -1,3 +1,7 @@
+package Model
+
+import Autenticavel
+
 class SistemaInterno{
     fun entra(admin: Autenticavel, senha:Int){
         if(admin.autentica(senha)){

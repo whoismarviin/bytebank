@@ -1,9 +1,11 @@
+import Model.*
+
 fun testaFuncionarios() {
     var contaAlex = ContaCorrente("Alex", 100.9)
     var contaMaria = ContaPoupanca("Alex", 100.9)
 
     logicaMain(contaAlex, contaMaria)
-    val andressa =Analista(
+    val andressa = Analista(
         nome = "Andressa",
         Cpf = "111.111.111.11",
         Salario = 1000.0

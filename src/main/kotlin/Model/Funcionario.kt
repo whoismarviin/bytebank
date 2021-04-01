@@ -1,3 +1,5 @@
+package Model
+
 abstract class Funcionario(
     val nome: String,
     val Cpf: String,

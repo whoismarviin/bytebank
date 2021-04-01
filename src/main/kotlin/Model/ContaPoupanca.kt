@@ -1,5 +1,9 @@
+package Model
+
+import Model.Conta
+
 class ContaPoupanca(titular: String, saldo: Double)
-    :Conta(
+    : Conta(
     titular,
     saldo
 ) {

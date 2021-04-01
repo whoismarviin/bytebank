@@ -1,3 +1,5 @@
+package Model
+
 abstract class Conta(
     var titular: String,
     var saldo: Double
